@@ -9,6 +9,7 @@
 
 
 
+
 # # 1.   Building a Basic Calculator
 # # 2.   Mad Libs Game
 
@@ -50,23 +51,28 @@
 # # Review
 # create variables for the following :
 # 1. age
+age = 39
 # 2. name
+name = "Thaddeus"
 # 3. song
+song = "Orange Juice"
 # 4. food
+food = "tacos"
 # 5. number
-
+number = 11
 
 # #now include the variables you just made print in the following...
 
 
 # Once upon a time, there was a [age] old coder named [name].
-
+print(f'Once upon a time, there was a {age} year old coder named {name}. ')
 
 # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
 
+print(f'{name} liked to hum the song {song} while coding. It was so annoying that their teamates would throw {food} until {name} would stop singing.')
 
 # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
-##########################################################################################
+print(f'Still, {name} was the best coder on the team and could write {number} lines of code every day. Maybe {song} was {name}\'s secret power?')
 
 
 
